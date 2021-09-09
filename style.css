@@ -1,0 +1,95 @@
+/*  */
+body {
+  background-color: #eeeeee;
+}
+
+.main-container {
+  width: 82%;
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding: 5%;
+  margin: auto;
+}
+
+.top-container {
+  text-align: left;
+  width: 88%;
+  margin: auto;
+  padding-bottom: 3%;
+}
+
+/* for the prices */
+
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.flex-child {
+  width: 190px;
+  border: 1px solid #ffffff;
+  border-radius: 30px;
+  text-align: center;
+  padding: 2%;
+}
+.flex-child:hover {
+  border: 1px solid #ccbfbf;
+  border-radius: 30px;
+}
+
+/* p styling */
+.p-text {
+  color: #3c3cdb;
+}
+
+/* ul and li */
+ul {
+  list-style: none;
+  text-align: left;
+  padding: 2%;
+}
+li {
+  padding-left: 5%;
+  line-height: 1.8;
+}
+
+/* third child */
+.child3 {
+  background-color: #3c3cdb;
+  color: #ffffff;
+}
+
+/* Button Styling */
+button {
+  padding: 1.4rem 1.6rem;
+  color: #0000ff;
+  padding: 10px 26px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 1px solid #0000ff;
+}
+button:hover {
+  background-color: #6666a7;
+  color: white;
+}
+#child3-btn {
+  background-color: #f8b1bd;
+}
+/* span */
+
+span {
+  font-size: 2rem;
+  color: #7f7faf;
+}
+
+#child3-span {
+  color: #ffffff;
+}
+
+h1 {
+  color: #3c3cdb;
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+}
